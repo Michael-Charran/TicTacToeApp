@@ -49,7 +49,7 @@ pip install streamlit numpy
 4. Run the App:
    streamlit run app.py
 
-Usage
+####Usage
 
 Train the AI:
 Use the "Train the AI" section to run simulations. More training games generally improve AI skill.
@@ -60,7 +60,7 @@ Click on empty squares to make your move. The AI will respond automatically.
 Reset:
 Use the "Reset Game" button to clear the board and start a new game.
 
-How It Works
+#####How It Works
 
 The AI uses Q-learning, a reinforcement learning technique, to learn optimal moves by simulating games against a random opponent.
 
@@ -70,13 +70,13 @@ The AI updates its knowledge with rewards for winning (+1), losing (-1), or draw
 
 Over many simulated games, the AI converges towards optimal play.
 
-Project Structure
+######Project Structure
 
 app.py: Main Streamlit application with RL logic and UI
 
 Dependencies: streamlit, numpy
 
-Future Improvements
+######Future Improvements
 
 Visualize Q-values and training progress graphs
 
@@ -86,10 +86,10 @@ Improve UI/UX with colors and animations
 
 Save/load trained models for persistent AI learning
 
-License
+########License
 
 This project is open source and free to use under the MIT License.
 
-Contact
+#########Contact
 
 For questions or suggestions, feel free to reach out!
