@@ -34,9 +34,62 @@ Everything runs **locally on your machine**—no external APIs or internet conne
 
 2. (Optional) Create and activate a virtual environment:
 
+
 ```bash
 python -m venv venv
 # On Windows (PowerShell):
 venv\Scripts\Activate.ps1
 # On Linux/macOS:
 source venv/bin/activate
+```
+
+3. Install required packages:
+pip install streamlit numpy
+
+4. Run the App:
+   streamlit run app.py
+
+Usage
+
+Train the AI:
+Use the "Train the AI" section to run simulations. More training games generally improve AI skill.
+
+Play the Game:
+Click on empty squares to make your move. The AI will respond automatically.
+
+Reset:
+Use the "Reset Game" button to clear the board and start a new game.
+
+How It Works
+
+The AI uses Q-learning, a reinforcement learning technique, to learn optimal moves by simulating games against a random opponent.
+
+Each state (board configuration) maps to Q-values for each possible move.
+
+The AI updates its knowledge with rewards for winning (+1), losing (-1), or drawing (+0.5).
+
+Over many simulated games, the AI converges towards optimal play.
+
+Project Structure
+
+app.py: Main Streamlit application with RL logic and UI
+
+Dependencies: streamlit, numpy
+
+Future Improvements
+
+Visualize Q-values and training progress graphs
+
+Add AI vs AI mode to watch games play out
+
+Improve UI/UX with colors and animations
+
+Save/load trained models for persistent AI learning
+
+License
+
+This project is open source and free to use under the MIT License.
+
+Contact
+
+For questions or suggestions, feel free to reach out!
