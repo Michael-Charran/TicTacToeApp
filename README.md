@@ -1,5 +1,6 @@
-Tic-Tac-Toe Reinforcement Learning with Streamlit
-Overview
+#Tic-Tac-Toe Reinforcement Learning with Streamlit
+
+#Overview
 
 This project implements a Reinforcement Learning (Q-Learning) agent that learns to play Tic-Tac-Toe.
 It features an interactive web interface built with Streamlit allowing you to:
@@ -14,7 +15,7 @@ Everything runs locally on your machine—no external APIs or internet connectio
 
 
 
-Features
+#Features
 
 
 Q-Learning algorithm for training the Tic-Tac-Toe AI
@@ -39,8 +40,8 @@ Fully self-contained with no dependencies beyond standard Python libraries and S
 
 
 
-Getting Started
-Prerequisites
+#Getting Started
+#Prerequisites
 
 
 Python 3.10 or 3.11 (recommended for compatibility)
